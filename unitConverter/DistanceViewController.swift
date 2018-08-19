@@ -6,4 +6,20 @@
 //  Copyright © 2018 Nadeeka Athukorala. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class DistanceViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+}
+

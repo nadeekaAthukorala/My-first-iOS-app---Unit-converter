@@ -175,7 +175,7 @@
         <!--Distance-->
         <scene sceneID="zP6-yd-aAA">
             <objects>
-                <viewController id="ySG-rE-9d6" customClass="DistanceViewController" sceneMemberID="viewController">
+                <viewController id="ySG-rE-9d6" customClass="DistanceViewController" customModule="unitConverter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D5M-XD-ghg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -277,7 +277,7 @@
         <!--Speed-->
         <scene sceneID="ely-yR-Ulz">
             <objects>
-                <viewController id="Ze6-ia-Pe7" customClass="SpeedViewController" sceneMemberID="viewController">
+                <viewController id="Ze6-ia-Pe7" customClass="SpeedViewController" customModule="unitConverter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lsU-QY-2GO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
