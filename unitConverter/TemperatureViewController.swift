@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  TemperatureViewController.swift
 //  unitConverter
 //
 //  Created by Nadeeka Athukorala on 8/17/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class TemperatureViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

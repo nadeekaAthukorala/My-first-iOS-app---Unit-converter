@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  WeightViewController.swift
 //  unitConverter
 //
 //  Created by Nadeeka Athukorala on 8/17/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class WeightViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
