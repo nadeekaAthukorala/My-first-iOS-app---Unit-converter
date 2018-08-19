@@ -260,6 +260,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="MeterTextField:" destination="ySG-rE-9d6" eventType="editingDidEnd" id="A7G-Jx-hRk"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter value in feet" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sDu-em-krX">
                                 <rect key="frame" x="148" y="289" width="181" height="30"/>
@@ -267,6 +270,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="footTextField:" destination="ySG-rE-9d6" eventType="editingDidEnd" id="Ido-XE-Kzx"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter value in yard" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aIe-jz-43P">
                                 <rect key="frame" x="148" y="360" width="181" height="30"/>
@@ -274,6 +280,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="yardTextField:" destination="ySG-rE-9d6" eventType="editingDidEnd" id="vso-Ea-QiP"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter value in kms" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Znv-qs-VVi">
                                 <rect key="frame" x="148" y="432" width="181" height="30"/>
@@ -281,6 +290,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="kmTextField:" destination="ySG-rE-9d6" eventType="editingDidEnd" id="4bw-Cz-lbw"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distance Conversion" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezu-eY-vIu">
                                 <rect key="frame" x="97" y="76" width="180" height="24"/>
@@ -295,12 +307,22 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="mileTextField:" destination="ySG-rE-9d6" eventType="editingDidEnd" id="sah-E3-s71"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Nr3-ns-3Q0"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Distance" image="location" id="5AV-nY-heh"/>
+                    <connections>
+                        <outlet property="footTextField" destination="sDu-em-krX" id="1NP-Jb-SKS"/>
+                        <outlet property="kmTextField" destination="Znv-qs-VVi" id="yZN-R9-rAv"/>
+                        <outlet property="meterTextField" destination="Kih-Ib-pYV" id="cvH-Xu-V4u"/>
+                        <outlet property="mileTextField" destination="0c3-VO-vPn" id="w2v-VF-opN"/>
+                        <outlet property="yardTextfield" destination="aIe-jz-43P" id="fbI-sj-4PD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fy2-DQ-8Gn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -341,6 +363,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="mpsTextField:" destination="Ze6-ia-Pe7" eventType="editingDidEnd" id="9Li-S5-9kD"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter value in ft/min" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HVI-XE-aPD">
                                 <rect key="frame" x="178" y="284" width="181" height="30"/>
@@ -348,6 +373,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="feetpsTextField:" destination="Ze6-ia-Pe7" eventType="editingDidEnd" id="bo6-jk-bBu"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter value in km/h" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Al-KJ-gb4">
                                 <rect key="frame" x="178" y="348" width="181" height="30"/>
@@ -355,6 +383,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="kmphTextField:" destination="Ze6-ia-Pe7" eventType="editingDidEnd" id="uK6-ya-JCv"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter value in miles/h" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y9D-2A-cTY">
                                 <rect key="frame" x="178" y="411" width="181" height="30"/>
@@ -362,6 +393,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="milesphTextField:" destination="Ze6-ia-Pe7" eventType="editingDidEnd" id="RcQ-Yt-y9j"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speed Conversion" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxe-cU-dow">
                                 <rect key="frame" x="105" y="93" width="160" height="24"/>
@@ -389,6 +423,12 @@
                         <viewLayoutGuide key="safeArea" id="CIe-i3-hkq"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Speed" image="meter" id="u6x-3c-X21"/>
+                    <connections>
+                        <outlet property="feetpsTextField" destination="HVI-XE-aPD" id="CNt-Wj-ZPx"/>
+                        <outlet property="kmphTextField" destination="5Al-KJ-gb4" id="GlD-mn-vdn"/>
+                        <outlet property="milespsTextfield" destination="Y9D-2A-cTY" id="OcZ-fp-FcX"/>
+                        <outlet property="mpsTextField" destination="mxk-J8-8VR" id="Z0C-N6-9Dp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lz8-0u-9dw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
